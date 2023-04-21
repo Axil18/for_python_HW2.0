@@ -1,0 +1,8 @@
+n = int(input('chislo :'))
+
+i = 0
+chislo = 2
+
+while chislo ** i < n:
+    print(chislo ** i)    
+    i +=1
